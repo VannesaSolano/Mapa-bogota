@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a07124ca7d238351a927af21a03b865a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a07124ca7d238351a927af21a03b865a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a07124ca7d238351a927af21a03b865a = L.map(
+                "map_a07124ca7d238351a927af21a03b865a",
+                {
+                    center: [4.60971, -74.08175],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_266436b19720916d4f676e5e4716b2a3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+            var marker_943628aaae99477e1c3e0451ae5eda7f = L.marker(
+                [4.5981, -74.076],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_82919ffc8d95136d0c89f155aeab43f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52e7a7a5b778267c2300dc8889f62222 = $(`<div id="html_52e7a7a5b778267c2300dc8889f62222" style="width: 100.0%; height: 100.0%;">Plaza de Bolívar</div>`)[0];
+            popup_82919ffc8d95136d0c89f155aeab43f0.setContent(html_52e7a7a5b778267c2300dc8889f62222);
+        
+
+        marker_943628aaae99477e1c3e0451ae5eda7f.bindPopup(popup_82919ffc8d95136d0c89f155aeab43f0)
+        ;
+
+        
+    
+    
+            var marker_2b1e2539c2fc1de2f551bb34cb6ea024 = L.marker(
+                [4.5955, -74.0755],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_203174103b0831692b886654f6b9535b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5047de13f86e48d22341c471a56ec8a = $(`<div id="html_b5047de13f86e48d22341c471a56ec8a" style="width: 100.0%; height: 100.0%;">Barrio La Candelaria</div>`)[0];
+            popup_203174103b0831692b886654f6b9535b.setContent(html_b5047de13f86e48d22341c471a56ec8a);
+        
+
+        marker_2b1e2539c2fc1de2f551bb34cb6ea024.bindPopup(popup_203174103b0831692b886654f6b9535b)
+        ;
+
+        
+    
+    
+            var marker_4813577cb43aa344cc50a2b67942845a = L.marker(
+                [4.5966, -74.075],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_25d9dc36809f155cddcebb3626996108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_685a8eea47e34e506120b9b45cefbc8e = $(`<div id="html_685a8eea47e34e506120b9b45cefbc8e" style="width: 100.0%; height: 100.0%;">Chorro de Quevedo</div>`)[0];
+            popup_25d9dc36809f155cddcebb3626996108.setContent(html_685a8eea47e34e506120b9b45cefbc8e);
+        
+
+        marker_4813577cb43aa344cc50a2b67942845a.bindPopup(popup_25d9dc36809f155cddcebb3626996108)
+        ;
+
+        
+    
+    
+            var marker_4f947ebe11c44316dc0b0c186e73ced7 = L.marker(
+                [4.5962, -74.0746],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_a38c65032593c3b07b98ee1fd31df7f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc402fd4ddc6940d5118521d756cae42 = $(`<div id="html_fc402fd4ddc6940d5118521d756cae42" style="width: 100.0%; height: 100.0%;">Calle del Embudo</div>`)[0];
+            popup_a38c65032593c3b07b98ee1fd31df7f8.setContent(html_fc402fd4ddc6940d5118521d756cae42);
+        
+
+        marker_4f947ebe11c44316dc0b0c186e73ced7.bindPopup(popup_a38c65032593c3b07b98ee1fd31df7f8)
+        ;
+
+        
+    
+    
+            var marker_46cd2f9f67d9b0b923f8fb02e7fd4581 = L.marker(
+                [4.6054, -74.0565],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_75c94b3175796fa643986d98e96b65f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_599f5b0d695998c1a4d82c286116b75c = $(`<div id="html_599f5b0d695998c1a4d82c286116b75c" style="width: 100.0%; height: 100.0%;">Cerro de Monserrate</div>`)[0];
+            popup_75c94b3175796fa643986d98e96b65f2.setContent(html_599f5b0d695998c1a4d82c286116b75c);
+        
+
+        marker_46cd2f9f67d9b0b923f8fb02e7fd4581.bindPopup(popup_75c94b3175796fa643986d98e96b65f2)
+        ;
+
+        
+    
+    
+            var marker_3397a5a6537049e8ba1c0c5ac1a8a4c1 = L.marker(
+                [4.6395, -74.0727],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_633b58d493b712f73d3929e51f92be21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad8b3cbb1ee73e97bd4cd3d9dd0fe4d8 = $(`<div id="html_ad8b3cbb1ee73e97bd4cd3d9dd0fe4d8" style="width: 100.0%; height: 100.0%;">Casa de Betty la Fea</div>`)[0];
+            popup_633b58d493b712f73d3929e51f92be21.setContent(html_ad8b3cbb1ee73e97bd4cd3d9dd0fe4d8);
+        
+
+        marker_3397a5a6537049e8ba1c0c5ac1a8a4c1.bindPopup(popup_633b58d493b712f73d3929e51f92be21)
+        ;
+
+        
+    
+    
+            var marker_d1c6b3ab27852f7e1bbf0b0d064838cb = L.marker(
+                [4.6011, -74.0722],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_363c6a2116241d064a874185fc76e8b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_826bfeb431979b3bda24f1ce920f55af = $(`<div id="html_826bfeb431979b3bda24f1ce920f55af" style="width: 100.0%; height: 100.0%;">Museo del Oro</div>`)[0];
+            popup_363c6a2116241d064a874185fc76e8b7.setContent(html_826bfeb431979b3bda24f1ce920f55af);
+        
+
+        marker_d1c6b3ab27852f7e1bbf0b0d064838cb.bindPopup(popup_363c6a2116241d064a874185fc76e8b7)
+        ;
+
+        
+    
+    
+            var marker_cb3d99a754707df6bcafc2f3dced0f14 = L.marker(
+                [4.6598, -74.0937],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_1cb756cab7b772b15d8818226d32e45a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d27f2cc0291d37839f7f503f7f2d59de = $(`<div id="html_d27f2cc0291d37839f7f503f7f2d59de" style="width: 100.0%; height: 100.0%;">Jardín Botánico</div>`)[0];
+            popup_1cb756cab7b772b15d8818226d32e45a.setContent(html_d27f2cc0291d37839f7f503f7f2d59de);
+        
+
+        marker_cb3d99a754707df6bcafc2f3dced0f14.bindPopup(popup_1cb756cab7b772b15d8818226d32e45a)
+        ;
+
+        
+    
+    
+            var marker_15577aac0ef7844eb65e8906b4c1dad8 = L.marker(
+                [5.0189, -74.0106],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_dba340547f0e4632c8cc8d24f7049b37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b8048d013c389bfaae92fe7d0e11d76 = $(`<div id="html_8b8048d013c389bfaae92fe7d0e11d76" style="width: 100.0%; height: 100.0%;">Catedral de Sal de Zipaquirá</div>`)[0];
+            popup_dba340547f0e4632c8cc8d24f7049b37.setContent(html_8b8048d013c389bfaae92fe7d0e11d76);
+        
+
+        marker_15577aac0ef7844eb65e8906b4c1dad8.bindPopup(popup_dba340547f0e4632c8cc8d24f7049b37)
+        ;
+
+        
+    
+    
+            var marker_340623005920287af7fad15328015b5f = L.marker(
+                [4.609, -74.0666],
+                {}
+            ).addTo(map_a07124ca7d238351a927af21a03b865a);
+        
+    
+        var popup_80516262a108a6b687f6907783c0aca0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31d76edcd2e1a696a3b188d7dac78395 = $(`<div id="html_31d76edcd2e1a696a3b188d7dac78395" style="width: 100.0%; height: 100.0%;">Casa Museo Quinta de Bolívar</div>`)[0];
+            popup_80516262a108a6b687f6907783c0aca0.setContent(html_31d76edcd2e1a696a3b188d7dac78395);
+        
+
+        marker_340623005920287af7fad15328015b5f.bindPopup(popup_80516262a108a6b687f6907783c0aca0)
+        ;
+
+        
+    
+</script>
+</html>
